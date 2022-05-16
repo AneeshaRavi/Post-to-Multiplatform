@@ -1,0 +1,105 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+     <!-- Template Main CSS File -->
+     <link rel="stylesheet" type="text/css" href="{% static 'contact.css' %}">
+   
+  </head>
+  <body>
+   
+  <!-- ======= Navigation Bar ======= -->
+ 
+  <nav class="navbar navbar-expand-lg fixed-top  bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BLOG SPOT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a id="signuplink" data-toggle="modal" data-target="#signupModal" class="nav-link"  href="">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Navigation Bar -->
+
+ <!--CONTACT SECTION STRATS-->
+<section>
+  <div id="contactcontainer" class="container py-lg-5 py-md-4 py-2">
+    <h3  id="contactheading" class="title-style text-center mb-lg-5 mb-4">Contact <span>Us</span></h3>
+    <div class="row text-center mb-5 pb-lg-5 pb-sm-4">
+      <div class="col-lg-3 col-sm-6 contact-info">
+        <i id="contactlink" class="fas fa-map-marked-alt"></i>
+        <h4>Location</h4>
+        <p>Kerala, 235 Terry, 10001</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 contact-info mt-md-0 mt-4">
+        <i  id="contactlink" class="fas fa-headset"></i>
+        <h4>Phone</h4>
+        <p><a href="tel:+44 987 654 321">+44 123 984 439</a></p>
+      </div>
+      <div class="col-lg-3 col-sm-6 contact-info mt-lg-0 mt-4">
+        <i id="contactlink" class="fas fa-envelope-open-text"></i>
+        <h4>Email</h4>
+        <p><a href="mailto:mail@example.com" class="email">mail@example.com</a></p>
+      </div>
+      <div class="col-lg-3 col-sm-6 contact-info mt-lg-0 mt-4">
+        <i id="contactlink" class="fas fa-user-clock"></i>
+        <h4>Working Hours</h4>
+        <p>Mon-Sat: 9hrs & Sun: Closed</p>
+      </div>
+    </div>
+    <div id="formdiv" class="form-inner-cont mx-auto" style="max-width:800px">
+      <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+        <div class="row align-form-map">
+          <div class="col-sm-6 form-input">
+            <input type="text"  class="form-control" name="w3lName" id="w3lName" placeholder="Name" />
+          </div>
+          <div class="col-sm-6 form-input">
+            <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="" />
+          </div>
+          <div class="col-sm-6 form-input">
+            <input type="text" class="form-control" name="w3lSubect" placeholder="Subject" class="contact-input">
+          </div>
+          <div class="col-sm-6 form-input">
+            <input type="number" class="form-control" name="w3lPhone" placeholder="Phone Number" class="contact-input">
+          </div>
+          </div>
+          <div class="form-input">
+            <textarea placeholder="Message" class="form-control" name="w3lMessage" id="w3lMessage" required=""></textarea>
+          </div>
+          <div id="button" class="submit text-right">
+            <button id="submitbutton" type="submit">Submit Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!--CONTACT SECTION ENDS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+  </body>
+</html>

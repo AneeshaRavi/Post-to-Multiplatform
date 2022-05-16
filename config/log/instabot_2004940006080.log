@@ -1,0 +1,34 @@
+2022-03-31 23:03:29,921 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-03-31 23:03:29,922 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\LenovoPC\AppData\Local\Programs\Python\Python310\lib\site-packages\instabot\bot\bot.py
+2022-03-31 23:03:29,923 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-03-31 23:03:30,352 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-03-31 23:03:30,353 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-03-31 23:03:30,355 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-03-31 23:03:30,356 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2022-03-31 23:08:30,764 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [400]>
+2022-03-31 23:08:30,765 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","status":"fail"}'
+2022-03-31 23:08:30,765 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-03-31 23:37:29,922 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: 
+2022-03-31 23:37:29,969 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2022-03-31 23:37:30,404 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-03-31 23:37:30,796 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-03-31 23:37:31,185 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-03-31 23:37:33,165 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2022-03-31 23:37:33,165 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'sonashimehru'!
+2022-03-31 23:37:33,166 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2022-03-31 23:37:33,597 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-03-31 23:37:34,033 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-03-31 23:37:34,451 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-d570b574b1154cd5&token_hash=&custom_device_id=android-d570b574b1154cd5&fetch_reason=token_expired returned response: <Response [200]>
+2022-03-31 23:37:34,881 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2022-03-31 23:37:35,315 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-03-31 23:37:36,079 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2022-03-31 23:37:36,503 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2022-03-31 23:37:37,008 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2022-03-31 23:37:38,352 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2022-03-31 23:37:38,780 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2022-03-31 23:37:39,480 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2022-03-31 23:37:39,901 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2022-03-31 23:37:40,384 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2022-03-31 23:37:40,821 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2022-03-31 23:37:41,241 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2022-03-31 23:37:41,662 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>

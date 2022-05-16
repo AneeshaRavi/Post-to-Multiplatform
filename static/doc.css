@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# Navigation Bar  Section
+--------------------------------------------------------------*/
+#navbar-brand
+{
+    font-size: 50px;
+    color: #444444;
+}
+.nav-link
+{
+    color: black;
+    font-size: 18px;
+    font-size: bold;
+}

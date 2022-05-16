@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+  # General Section
+ --------------------------------------------------------------*/
+
+ body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    background: #213b52;
+  }
+  
+  a {
+    color: #fdc134;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fdd067;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+ 
+ /*--------------------------------------------------------------
+  # Navigation Bar Section
+ --------------------------------------------------------------*/
+ .navbar
+ {
+      background: #213b52;
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+ }
+ .nav-item
+ {
+     font-size: 20px;
+     color: #213b52;
+ }
+ .nav-link
+ {
+    color: #213b52;
+ }
+ .navbar-brand
+ {
+     font-size: 30px;
+     color:black;
+ }
+ #signuplink
+ {
+    color: #213b52;
+    border-radius: 50px;
+    transition: all ease-in-out 0.3s;
+  
+
+ }
+ #signuplink:hover
+ {
+    border: 2px solid #fdc134;
+    background-color:#213b52;
+    color: white;
+ }
+ .navbar .getstarted, .navbar .getstarted:focus {
+    background: #213b52;
+    color: #fff;
+    padding: 4px 25px 6px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 2px solid #fdc134;
+  }
+  .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+    background: #fdc134;
+    color: #213b52;
+  }
+/*----------------------------------
+    CONTACT SECTION
+------------------------------------*/
+#contactcontainer
+{
+    margin-top: 30px;
+}
+#contactheading
+{
+    margin-top: 0px;
+    font-size: 40px;
+    color: white;
+}
+#contactlink
+{
+    font-size: 31px;
+    color: crimson;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: white;
+}
+h4{
+    color: white;
+}
+.form-control
+{
+    margin-top: 10px;
+}
+
+#button
+{
+    margin-top: 20px;
+}
+#submitbutton
+{
+    color: white;
+    background-color: crimson;
+    width: 150px;
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+
+}
+
+
+
+
